@@ -62,14 +62,18 @@ function Home() {
                         <div id='slide1'>
                             <h3>CASTE</h3>
                             <p>
-                                <a href='/hindu'>Hindu</a>"|"
+                                <a href='/hindu'>Agarwal</a> | <a href='/hindu'>Arora</a> | <a href='/hindu'>Brahmin</a> | <a href='/hindu'>Gupta</a>
+                                | <a href='/hindu'>Khatri</a> | <a href='/hindu'>Iyar</a> | <a href='/hindu'>Kayastha</a> | <a href='/hindu'>Maratha</a>
+                                | <a href='/hindu'>Rajput</a> | <a href='/hindu'>Sunny</a> | <a href='/hindu'>Swetambar</a>
                             </p>
                             <button>Read more</button>
                         </div>
                         <div id='slide1'>
                             <h3>STATES</h3>
                             <p>
-                                <a href='/hindu'>Hindu</a>"|"
+                                <a href='/ind'>California</a> | <a href='/hindu'>New York</a> | <a href='/hindu'>Texas</a> | <a href='/hindu'>New Jersey</a>
+                                | <a href='/hindu'>Virginia</a> | <a href='/hindu'>illinois</a> | <a href='/hindu'>Florida</a> | <a href='/hindu'>Pennsylvania</a>
+                                | <a href='/jhdj'>Michigan</a> | <a href='/jhdj'>Georgia</a>
                             </p>
                             <button>Read more</button>
                         </div>
