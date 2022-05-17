@@ -352,80 +352,173 @@ li a:hover{
 #icon-G{
   color: orangered;
 }
-/*registration popup*/
-.labelName{
-  color: white;
-  font-size: 15px;
-  margin-top: 5px;
+/*registration*/
+#blockForm {
+  background-color: rgb(118 199 192 / 25%);
+  box-shadow: 1px 2px 1px #c9caca;
 }
+
 #input-name{
   border: 1px solid rgb(187, 67, 67);
   outline: none;
-  width: 90%;
-  overflow: hidden;
-  padding: 3px;
-  border-radius: 5px;
-}
-.popup-user {
-  position: fixed;
-  background: #00000050;
   width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  padding: 5px 15px;
+  border-radius: 5px;
+  
 }
- 
-.userPopup{
-  position: relative;
-  max-width: 100%;
-  width: 40%;
-  margin: 0 auto;
-  margin-top: 20px; 
-  background: #84b9d1;
-  border-radius: 4px;
-  padding: 20px;
-  z-index: 1;
+select{
+  background-color: white;
 }
- 
-.close-icon-user {
-  content: 'x';
-  cursor: pointer;
-  position: fixed;
-  right: calc(30% - 30px);
-  top: calc(100vh - 95vh - 31px);
-  background: #ededed;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  line-height: 20px;
-  text-align: center;
-  border: 1px solid #999;
-  font-size: 20px;
+.registerImg{
+  width: 500px;
+  height: 600px;
 }
 #registerBtn{
-  outline: none;
   height: 42px;
   font-size: 13px;
   font-weight: bold;
   padding: 0 20px;
   background: #aa0000;
   border: 0;
+  color: white;
   text-transform: uppercase;
   margin-top: 5px;
-  border-radius: 5px;
-  color: white;
+  border-radius: 5px
 }
 #cancelBtn{
-  outline: none;
   height: 42px;
   font-size: 13px;
   font-weight: bold;
   padding: 0 20px;
-  background: #444;
+  background:#444;
   border: 0;
+  color: white;
   text-transform: uppercase;
   margin-top: 5px;
-  border-radius: 5px;
+  border-radius: 5px
+}
+.careerDetails{
+  text-align: center;
+  align-items: center;
+}
+
+#career-input{
+  width: 50%;
+  height: 40px;
+  padding: 0px 10px;
+  margin: 10px;
+  outline: none;
+  border: 1px solid rgb(230, 225, 225);
+  background-color: white;
+}
+.complete-register{
+  background-color: #d9475c;
   color: white;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  width: 230px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.cont-register{
+  width: 200px;
+  height: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 20px;
+  background:#444;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 5px;
+
+}
+
+.family-div{
+  text-align: center;
+  align-items: center;
+} 
+#family-live{
+  width: 50%;
+  height: 40px;
+  padding: 0px 10px;
+  margin: 10px;
+  outline: none;
+  border: 1px solid rgb(230, 225, 225);
+}
+#family-message{
+  width: 50%;
+  height: 100px;
+  padding: 0px 10px;
+  margin: 10px;
+  outline: none;
+  border: 1px solid rgb(230, 225, 225);
+}
+.profileBtn{
+  background-color: #d9475c;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  width: 230px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.profileContinue{
+  width: 200px;
+  height: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 20px;
+  background:#444;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* verify section */
+.verifyP{
+  color: #4c4151;
+  font-family: "Roboto","sans-serif";
+  font-weight: 300;
+  font-size: 19px;
+}
+.mobileValue{
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(230, 225, 225);
+  text-align: center;
+  outline: none;
+}
+.mobileNumber{
+  height: 50px;
+  border: 1px solid rgb(230, 225, 225);
+  padding: 10px;
+  outline: none;
+}
+.mobileLabel{
+  color: #34495e;
+  font-family: "Roboto","sans-serif";
+  font-weight: 300;
+  font-size: 18px;
+}
+.verifyNumber{
+  background-color: #d9475c;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 142px;
+}
+.verifyParagraph{
+  font-size: 15px;
+  color: #34495e;
+  font-family: "Roboto","sans-serif";
 }

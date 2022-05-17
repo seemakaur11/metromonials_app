@@ -11,6 +11,8 @@ import shieldIcon from '../images/shield-icon.png'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 function Home() {
     const options = {
@@ -21,6 +23,7 @@ function Home() {
 
     return (
         <div>
+            <Navbar />
             <section>
                 <img src={homeImg} className='homeimg' alt="homeing" />
             </section>
@@ -353,6 +356,7 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     )
 }

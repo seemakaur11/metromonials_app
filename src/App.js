@@ -1,15 +1,24 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Footer from "./components/Footer";
+import Career from "./components/Career";
+import Family from "./components/Family";
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+import Register from "./components/Register";
+import Verify from "./components/Verify";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/register" component={Register} />
+          <Route path="/career" component={Career} />
+          <Route path="/family" component={Family} />
+          <Route path="/verify" component={Verify} />
+        </Switch>
+      </Router>
     </div>
   );
 }
